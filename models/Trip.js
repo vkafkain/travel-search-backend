@@ -12,30 +12,25 @@ const Trip = sequelize.define('trip', {
 
 Trip.hasMany(Flight, { as: 'flights' });
 Flight.belongsTo(Trip, {
-  foreignKey: 'tripId',
   as: 'trip',
 });
 
 Trip.belongsToMany(City, {
   through: 'trip_city',
-  as: 'city',
-  foreignKey: 'tripId',
+  as: 'cities',
 });
 City.belongsToMany(Trip, {
   through: 'trip_city',
-  as: 'trip',
-  foreignKey: 'cityId',
+  as: 'trips',
 });
 
 Trip.belongsToMany(Hotel, {
   through: 'trip_hotel',
-  as: 'hotel',
-  foreignKey: 'tripId',
+  as: 'hotels',
 });
 Hotel.belongsToMany(Trip, {
   through: 'trip_hotel',
-  as: 'trip',
-  foreignKey: 'cityId',
+  as: 'trips',
 });
 
 

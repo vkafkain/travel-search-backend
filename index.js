@@ -2,16 +2,15 @@ import fakeData from './database/fakeData.js';
 import { connectDB, sequelize } from './database/mySQL.js';
 import { searchTrips } from './controllers/search.controller.js';
 import userSearch from './utils/userSearch.js';
-// import userSearch from './utils/userSearch.js';
 
 sequelize.options.logging = false;
 
 connectDB().then(() => {
   fakeData()
 }).then(() => {
-//  const searchInput = userSearch()
+const searchInput = userSearch()
 
- searchTrips() 
+searchTrips(searchInput);
 
   // console.log(searchInput);
 }) 

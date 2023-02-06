@@ -22,7 +22,7 @@ const connectDB = async () => {
             password: process.env.DB_PASSWORD
         });
         await connection.query(`CREATE DATABASE IF NOT EXISTS ${process.env.DB_NAME}`),
-        await sequelize.sync({ force: false });
+        await sequelize.sync({ force: true });
         console.log('Connection to mySQL-DB has been established successfully')
     }catch(error) {
         console.error('Unable to connect to the database:', error);

@@ -3,7 +3,7 @@ import DataTypes from 'sequelize';
 
 const Hotel = sequelize.define('hotel', {
   name: DataTypes.STRING,
-  categories: DataTypes.STRING,
+  category: DataTypes.STRING,
 });
 
 export default Hotel;

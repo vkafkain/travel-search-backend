@@ -7,7 +7,7 @@ import Hotel from './Hotel.js';
 const Trip = sequelize.define('trip', {
   name: DataTypes.STRING,
   type: DataTypes.ENUM('land trip', 'air trip'),
-  duration: DataTypes.TIME,
+  duration: DataTypes.STRING,
 });
 
 Trip.hasMany(Flight, { as: 'flights' });

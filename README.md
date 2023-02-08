@@ -5,6 +5,20 @@
 
 Application created for the classification of [Vueling Tech Hack](https://nuwe.io/dev/competitions/vueling-tech-hack) using Nodejs and MySQL.
 
+## Table of Contents
+
+- [Challenge Goals](##challengegoals)
+- [Requeriments](##requeriments)
+- [Install](##install)
+- [Enviroment variables](##enviroment-variables)
+- [Run the application](##run-the-application)
+- [Project architecture](##project-architecture)
+- [App work](##app-work)
+- [Database](##database)
+- [Technologies](##technologies)
+- [Author](##author)
+- [License](##license)
+
 ## Challenge Goals
 ### About | Online Travel Agency Mission
 
@@ -40,10 +54,6 @@ Europe Popular Capitals; Land Trip; 3 days; Madrid, Paris, London; Hotel Best Ma
 Europe laying out cities; Land Trip; 3 days; Berlín, Madrid; Hotel Best Madrid 3*, Hotel Worst Berlin 4*
 Infinite Egipt; Air Trip; 4 days; Madrid, القاهرة‎, الأقصر‎; Madrid 09:00, الأقصر‎ 10:00
 Incredible China; Air Trip; 10 dies; Barcelona, Madrid, 广州市, 北京市; Madrid 09:00, 北京市 10:00
-
-## Instructions
-
-_Follow the instructions carefully for proper operation of the application._
 
 ## Requeriments
 

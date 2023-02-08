@@ -5,19 +5,6 @@
 
 Application created for the classification of [Vueling Tech Hack](https://nuwe.io/dev/competitions/vueling-tech-hack) using Nodejs and MySQL.
 
-## Table of Contents
-
-- [Challenge Goals](##challengegoals)
-- [Requeriments](##requeriments)
-- [Install](##install)
-- [Enviroment variables](##enviroment-variables)
-- [Run the application](##run-the-application)
-- [Project architecture](##project-architecture)
-- [App work](##app-work)
-- [Database](##database)
-- [Technologies](##technologies)
-- [Author](##author)
-- [License](##license)
 
 ## Challenge Goals
 ### About | Online Travel Agency Mission

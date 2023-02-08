@@ -99,7 +99,7 @@ _Here we can see the model diagram:_
 
 ### Fake database
 
-_I have created a fakeData.js file that inserts fake data into the database, I would have liked to do it a little better but I haven't had time.
+_I have created a fakeData.js file that inserts fake data into the database._
 
 ## Technologies
 

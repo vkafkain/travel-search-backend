@@ -62,9 +62,22 @@ npm install
 
 ## Enviroment variables
 
-In order for everything to work, we have to enable the environment variables. To do this, you have to create a file with the name `.env` and enter the data you have in the `.templates.env` file.
+_In order for everything to work, we have to enable the environment variables. To do this, you have to create a file with the name `.env` and enter the data you have in the `.templates.env` file._
 
 ![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/envtemplate.png)
+
+## Run the application
+
+_Once we have the programs and dependencies installed, run the following command in terminal:_ 
+
+```
+npm start
+```
+
+## Project architecture
+
+
+
 
 ## License
 

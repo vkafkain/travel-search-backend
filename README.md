@@ -54,7 +54,7 @@ _For the application to function properly, it is recommended to have this progra
 
 ## Install
 
-_Clone this repository to your local repository, run the following command in terminal to install the dependencies and for the project to function correctly:_
+_Clone this repository to your local repository, run the following command in terminal to install the dependencies and for the project to work correctly:_
 
 ```
 npm install
@@ -64,7 +64,7 @@ npm install
 
 In order for everything to work, we have to enable the environment variables. To do this, you have to create a file with the name `.env` and enter the data you have in the `.templates.env` file.
 
-
+![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/envtemplate.png)
 
 ## License
 

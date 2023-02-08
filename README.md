@@ -1,4 +1,5 @@
-#  Travel search | Backend Challenge 
+#  Travel search | Backend Challenge 🛫
+
 
 ![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/logoNode.png)
 

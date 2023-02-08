@@ -97,6 +97,10 @@ _Here we can see the model diagram:_
 
 ![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/MER-travel-search-diagram.png)
 
+### Fake database
+
+_I have created a fakeData.js file that inserts fake data into the database, I would have liked to do it a little better but I haven't had time._
+
 ## Technologies
 
 

@@ -1,4 +1,4 @@
-# ✈️   Travel search | Backend Challenge 
+#  Travel search | Backend Challenge 
 
 ![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/logoNode.png)
 
@@ -76,8 +76,44 @@ npm start
 
 ## Project architecture
 
+_Here we can see the project structure by folders:_
+
+![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/projectStructure.png)
 
 
+## App work
+
+_The application is a small CLI for the node console in which the user inputs a city and the program prints out all the trips that pass through that specific city to the console._
+
+_Here we can see an example of what it shows us when searching for Barcelona:_
+
+![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/CLIexample.png)
+
+## Database
+
+### Entity-Relationship database model
+
+_I have created the database in MySQL with the entity-relationship model, in large volumes of data having a structured database gives us stability, and allows it to grow without many headaches._
+
+_Here we can see the model diagram:_
+
+![Demo](https://github.com/vkafkain/travel-search-backend/blob/main/docs/MER-travel-search-diagram.png)
+
+## Technologies
+
+
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming language used.
+* [Node.js](https://nodejs.org/en/docs/) - Server-side JavaScript runtime environment.
+* [MySQL](https://dev.mysql.com/doc/) - MySQL is a relational database management system based on SQL – Structured Query Language.
+* [NPM](https://www.npmjs.com/) - Dependency manager.
+* [dotenv](https://www.npmjs.com/package/dotenv) - Dotenv is a zero-dependency module that loads environment variables.
+* [mysql2](https://www.npmjs.com/package/mysql2) - MySQL client for Node.js with focus on performance. Supports prepared statements, non-utf8 encodings, binary log protocol, compression, ssl much more.
+* [sequelize](https://www.npmjs.com/package/sequelize) - Sequelize is an easy-to-use and promise-based Node.js ORM tool for Postgres, MySQL, MariaDB, SQLite, DB2, Microsoft SQL Server, and Snowflake. It features solid transaction support, relations, eager and lazy loading, read replication and more.
+* [readline-sync](https://www.npmjs.com/package/readline-sync) - Synchronous Readline for interactively running to have a conversation with the user via a console(TTY).
+
+## Author
+
+[Víctor López](https://github.com/vkafkain)
 
 ## License
 
